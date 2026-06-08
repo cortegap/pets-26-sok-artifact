@@ -14,10 +14,11 @@ Finding Protocols for Lightweight Location Tracking", by Akshaya Kumar, Carolina
 Ortega Pérez, Joseph Jaeger, Thomas Ristenpart, and Michael A. Specter, accepted
 in PETS 2026.
 
-To assemble the corpus, the authors followed two methods: a snowball search
-and a keyword search. The authors filtered relevant outputs of each method separately, 
-creating two separate corpuses, and finally combined them.
-The full methodology is available in Appendix A.
+To assemble the corpus, the authors followed two methods: a snowball search (method 1)
+and a keyword search (method 2). The authors filtered relevant outputs of each method
+separately, creating two separate corpuses, and finally combined them.
+The full methodology is available in Appendix A of the paper:
+https://eprint.iacr.org/2026/488.
 
 The files contain the following information:
 - `method1-snowball.csv` -- contains the initial corpus of papers gathered from method 1.
@@ -32,9 +33,7 @@ therefore we do not have privacy or ethical concerns.
 
 ## Environment
 
-In the following, describe how to access your artifact and all related and
-necessary data and software components. Afterward, describe how to set up
-everything and how to verify that everything is set up correctly.
+Our data can be viewed using a csv file viewer.
 
 ### Accessibility
 
@@ -43,10 +42,12 @@ Our artifact is available at:
 
 ## Notes on Reusability
 
-First, this section might not apply to your artifacts. Describe how your
-artifact can be used beyond your research paper, e.g., as a general framework.
-The overall goal of artifact evaluation is not only to reproduce and verify your
-research but also to help other researchers to re-use and extend your artifacts.
-Discuss how your artifacts can be adapted to other settings, e.g., more input
-dimensions, other datasets, and other behavior, through replacing individual
-modules and functionality or running more iterations of a specific module.
+Our artifact supports reuse beyond verifying the specific corpus presented in our paper.
+The `final-corpus.csv` file, along with the categorization therein (topic and type labels),
+provides a starting point for researchers studying offline finding, Bluetooth-based
+location tracking, anti-stalking technology, or crowdsourced location tracking systems.
+The categorization columns can be filtered or extended to suit a narrower or broader
+scope without redoing the full search. Our keyword and snowball search both attained
+saturation at the time of writing and may be extended making fresh forward-citation passes
+from the papers already included, or by re-running the keyword search against the same
+venues for papers published after our cutoff.
