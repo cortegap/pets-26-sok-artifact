@@ -20,10 +20,10 @@ creating two separate corpuses, and finally combined them.
 The full methodology is available in Appendix A.
 
 The files contain the following information:
-`method1-snowball.csv` -- contains the initial corpus of papers gathered from method 1.
-`method2-keywords.csv` -- contains the initial corpus of papers gathered from method 2.
-`keywords.csv` -- contains the keywords used during method 2.
-`final-corpus.csv `-- contains the final corpus of papers used in the SoK, along with their categorizations.
+- `method1-snowball.csv` -- contains the initial corpus of papers gathered from method 1.
+- `method2-keywords.csv` -- contains the initial corpus of papers gathered from method 2.
+- `keywords.csv` -- contains the keywords used during method 2.
+- `final-corpus.csv `-- contains the final corpus of papers used in the SoK, along with their categorizations.
 
 ### Security/Privacy Issues and Ethical Concerns
 
@@ -39,7 +39,7 @@ everything and how to verify that everything is set up correctly.
 ### Accessibility
 
 Our artifact is available at: 
-'https://github.com/cortegap/pets-26-sok-artifact/tree/main'
+`https://github.com/cortegap/pets-26-sok-artifact/tree/main`
 
 ## Notes on Reusability
 
