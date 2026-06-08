@@ -27,7 +27,7 @@ The files contain the following information:
 
 ### Security/Privacy Issues and Ethical Concerns
 
-Our arrtifact is a collection of publicly available papers and documentation,
+Our artifact is a collection of publicly available papers and documentation,
 therefore we do not have privacy or ethical concerns.
 
 ## Environment
